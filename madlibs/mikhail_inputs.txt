@@ -1,0 +1,5 @@
+noun: umbrella
+noun: mouse
+adjective: rectangular
+number: seventy-three
+verb: imagines
