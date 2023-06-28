@@ -1,0 +1,5 @@
+noun: water
+noun: sofa
+adjective: velvety
+number: one million
+verb: burpees
