@@ -1,0 +1,5 @@
+noun: tea
+noun: shrub
+adjective: turquoise
+number: eight
+verb: codes
