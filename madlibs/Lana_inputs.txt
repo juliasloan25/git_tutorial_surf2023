@@ -1,0 +1,5 @@
+noun: oranges
+noun: wallet
+adjective: freezing
+number: two
+verb: speedy
