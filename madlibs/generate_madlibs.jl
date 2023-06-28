@@ -20,11 +20,13 @@ word_backups = Dict("verb" => verbs_backup, "noun" => nouns_backup, "number" => 
 # go through text files in current directory
 for file in readdir(".")
     if split(file, ".")[2] == "txt"
-        for line in readlines(file)
-            w, val = split(line, ": ")
+        for line in strip.(readlines(file))
+            if !isempty(line)
+                w, val = split(line, ": ")
 
-            # fill arrays
-            push!(word_arrays[w], val)
+                # fill arrays
+                push!(word_arrays[w], val)
+            end
         end
 
     end
