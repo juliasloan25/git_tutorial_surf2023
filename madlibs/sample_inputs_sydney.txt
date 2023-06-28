@@ -1,0 +1,5 @@
+noun: coffee
+noun: Clima
+adjective: unexpected
+number: zero
+verb: escapes
