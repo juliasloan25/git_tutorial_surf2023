@@ -1,0 +1,5 @@
+noun: map
+noun: mouse
+adjective: red
+number: eleven
+verb: yawns
