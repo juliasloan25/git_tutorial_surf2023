@@ -1,0 +1,5 @@
+noun: dog
+noun: water
+adjective: funny
+number: eight
+verb: runs
