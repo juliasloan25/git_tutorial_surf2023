@@ -1,0 +1,5 @@
+noun: gong
+noun: passport
+adjective: goofy
+number: seven
+verb: breaks
