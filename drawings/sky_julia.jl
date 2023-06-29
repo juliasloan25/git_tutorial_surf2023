@@ -2,7 +2,7 @@
 # Fill in your drawing here. Delete the outline and comments when you are done.
 
 #  ---------------------------
-# |                           |
-# |                           |
-# |                           |
+# | 🚀         🌙         🦇  |
+# |    ⭐            🛰       |
+# |            🦇        ✨   |
 #  ---------------------------
