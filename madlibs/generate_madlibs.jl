@@ -1,5 +1,9 @@
 using Random
 
+# check that we are in the right directory
+filename = "generate_madlibs.jl"
+@assert isfile(filename) "You're running from the wrong directory. Please run from the \"madlibs\" folder."
+
 word_types = ["verb", "noun", "number", "adjective"]
 
 verbs = Vector{String}()
@@ -20,11 +24,12 @@ word_backups = Dict("verb" => verbs_backup, "noun" => nouns_backup, "number" => 
 # go through text files in current directory
 for file in readdir(".")
     if split(file, ".")[2] == "txt"
-        for line in readlines(file)
-            w, val = split(line, ": ")
-
-            # fill arrays
-            push!(word_arrays[w], val)
+        for line in strip.(readlines(file))
+            if !isempty(line)
+                w, val = strip.(split(line, ": "))
+                # fill arrays
+                push!(word_arrays[w], val)
+            end
         end
 
     end

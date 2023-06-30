@@ -1,0 +1,5 @@
+noun: grass
+noun: telephone
+adjective: spiky
+number: six
+verb: climbs
